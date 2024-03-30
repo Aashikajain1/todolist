@@ -77,11 +77,7 @@ function Home() {
                 onChange={(e)=>{
                     setNewtask(e.target.value)
                 }}/>
-                <select className='w-5 p-2 h-25 d-inline-block border border-primary rounded-pill ms-2 me-2'
-                value={category}
-                 onChange={(e)=>{
-                        setCategory(e.target.value)
-                        }}>
+                <select className='w-5 p-2 h-25 d-inline-block border border-primary rounded-pill ms-2 me-2' value={category} onChange={(e)=>{setCategory(e.target.value)}}>
                     <option> Select category</option>
                     <option value="📚 College">📚 College</option>
                     <option value="🛒Shopping">🛒Shopping</option>
