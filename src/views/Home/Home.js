@@ -85,7 +85,7 @@ function Home() {
                     <option value="🗓️ Work">🗓️ Work</option>
                     <option value="🎨 Hobby">🎨 Hobby</option>
                 </select>
-                <img src={plus}
+                <img src={plus} alt='loading'
                  style={{ height: 40, width: 30, marginLeft: 25 }} 
                  onClick={addTask}/>
             </div>
